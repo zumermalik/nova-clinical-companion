@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* We keep this file completely clean!
+  All styling is handled via Tailwind classes in our .tsx files 
+  to keep the architecture modular and scalable.
+*/
+
+body {
+  background-color: #020617; /* Matches Tailwind's slate-950 */
+  color: #e2e8f0;            /* Matches Tailwind's slate-200 */
+}
